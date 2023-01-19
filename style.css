@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.container-fluid {
+    width: 100%;
+    height: 100%;
+}
+.centeris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.multi_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.multi_container > div {
+    border: 5px solid grey;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 2rem;
+}
+.flag_img {
+    width: 20rem;
+    height: 10rem;
+    border: 2px solid black;
+}
+
+.borderisred {
+    border: 3px solid red;
+}
+.borderisgreen {
+    border: 3px solid green;
+}
+.borderisyellow {
+    border: 3px solid yellow;
+}
+.borderispink {
+    border: 3px solid lightcoral;
+}
+.borderisorange {
+    border: 3px solid orange;
+}
+.borderisblue {
+    border: 3px solid blue;
+} 
